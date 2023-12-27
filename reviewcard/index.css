@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&family=Gruppo&family=Montserrat:wght@300;500;600&family=Poppins:wght@100;300;400;500;600&display=swap');
+
+* {
+    font-family: "Figtree"; 
+    font-weight: 600, 800;
+    
+    
+}
+    
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    
+    height: 100vh;
+    background-color: var(--yellow);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+:root{
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black:  hsl(0, 0%, 7%);
+}
+
+h1 {
+    color: var(--yellow);
+}
+
+.card {
+    
+    
+    margin: 20px;
+    width: 336px;
+    
+    
+}
+
+.container {
+    background-color: var(--white);
+    border-radius: 20px;
+    border: solid 1px var(--black);
+    box-shadow: 0.25rem 0.25rem #000;
+    transition: 0.3s;
+}
+    
+      
+.container:hover {
+    cursor: pointer;
+    transform: translate(-0.25rem,-0.25rem);
+    box-shadow: 0.50rem 0.50rem #000;
+    
+}
+
+h3:hover {
+    color: var(--yellow);
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+    
+
+.info span {
+    background-color: var(--yellow) ;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: 600;
+    
+}
+
+
+    
+
+p {
+    font-size: 16px;
+    line-height: 32px;
+    color: var(--grey);
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.published {
+    color: var(--black);
+    font-size: small;
+    margin-top: 10px;
+
+}
+
+h3 {
+    font-size: 24px;
+    display: inline-block;
+    margin-bottom: 5px;
+    
+}
+
+.image  {
+    width: 100%;
+   
+}
+
+.image img {
+    border-radius: 10px;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content:flex-start;
+    gap: 10px;
+    height: 50px;
+    
+    align-items: center;
+}
+
+
+.footer img {
+    height: 36px;
+    
+}
